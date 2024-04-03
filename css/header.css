@@ -1,0 +1,25 @@
+header {
+  padding: 2.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-home a {
+  text-decoration: none;
+  color: #030303;
+  padding: 0.5rem;
+}
+.header-home {
+  display: flex;
+  gap: 0.8rem;
+}
+
+@media (max-width: 21.87rem) {
+  .header-home {
+    display: inline;
+    padding-top: 1.3rem;
+  }
+}

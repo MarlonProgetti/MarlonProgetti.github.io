@@ -1,0 +1,41 @@
+main {
+  max-width: 75rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.foto {
+  max-width: 12rem;
+  grid-column: 1;
+}
+.introducao {
+  font-size: 2.5rem;
+  line-height: 1.12;
+  margin-bottom: 1.8rem;
+}
+
+@media (max-width: 41rem) {
+  .foto {
+    max-width: 8rem;
+  }
+  .introducao {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .foto {
+    max-width: 4rem;
+  }
+  .introducao {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 14.38rem) {
+  .foto {
+    display: none;
+  }
+  .introducao {
+    font-size: 0.8rem;
+  }
+}

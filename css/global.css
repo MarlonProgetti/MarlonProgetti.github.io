@@ -1,0 +1,25 @@
+body {
+  max-width: 75rem;
+  margin: 0rem;
+  padding: 1rem;
+  font-family: arial;
+  background-color: #808080;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0rem;
+}
+
+ul {
+  margin: 0rem;
+  padding: 0rem;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: blocks;
+}

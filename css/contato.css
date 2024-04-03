@@ -1,0 +1,57 @@
+.contato {
+  max-width: 75rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4rem;
+}
+.subtitulo-3 {
+  font-size: 6rem;
+  line-height: 1;
+  word-break: break-all;
+  max-width: 4ch;
+  color: aliceblue;
+}
+
+.contato-url {
+  font-size: 1.8rem;
+  line-height: 1.33;
+  background-color: #a9a9a9;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.links {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  background-color: #808080;
+  border-radius: 7rem;
+}
+
+@media (max-width: 41rem) {
+  .subtitulo-3 {
+    font-size: 3rem;
+  }
+  .contato-url {
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 33.13rem) {
+  .contato-url {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 22.88rem) {
+  .contato {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .subtitulo-3 {
+    word-break: normal;
+  }
+}
